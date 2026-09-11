@@ -3,28 +3,28 @@
 class Upwindctl < Formula
   desc "Command-line interface for Upwind Security services"
   homepage "https://upwind.io"
-  version "0.37.0"
+  version "0.38.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://releases.upwind.io/upwindctl/v0.37.0/upwindctl-v0.37.0-darwin-arm64"
-      sha256 "d1614b2988204c57bf5090693b6b90828ef69226d237aa9f0fb2e5dff4380333"
+      url "https://releases.upwind.io/upwindctl/v0.38.0/upwindctl-v0.38.0-darwin-arm64"
+      sha256 "77e53f188da46eb870d9321a989c09ffc2d80172b1e299f9c3590bf24286cd51"
     end
     on_intel do
-      url "https://releases.upwind.io/upwindctl/v0.37.0/upwindctl-v0.37.0-darwin-amd64"
-      sha256 "ead89129e9bdf823aa538a8bce08de4e71561cf68d2c9673013783b5fe1481a3"
+      url "https://releases.upwind.io/upwindctl/v0.38.0/upwindctl-v0.38.0-darwin-amd64"
+      sha256 "c3aff1859c3325db04dbd2085cd3cfaee50f76fc1d2f782e59eb3b51d2a9b74e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.upwind.io/upwindctl/v0.37.0/upwindctl-v0.37.0-linux-arm64"
-      sha256 "2360fc10b07a1106079137e7f73d051779eabe6c62d5bce668578419d392139c"
+      url "https://releases.upwind.io/upwindctl/v0.38.0/upwindctl-v0.38.0-linux-arm64"
+      sha256 "dc83f9fc528bff8b40af30812f9076d40243cfd71141c9d63269c795257523f6"
     end
     on_intel do
-      url "https://releases.upwind.io/upwindctl/v0.37.0/upwindctl-v0.37.0-linux-amd64"
-      sha256 "2e958fb2785d1bf7ccc85349f93c5c0cd1cce2c9379798626850629873a9080a"
+      url "https://releases.upwind.io/upwindctl/v0.38.0/upwindctl-v0.38.0-linux-amd64"
+      sha256 "49918b8e3838411692d28e404716f32636215f749a7f4bdbb293a72677dc104b"
     end
   end
 
